@@ -11,7 +11,7 @@ st.write("you select:",level)
 
 import streamlit as st
 import os
-from fastai.vision.all import *
+from fastai import *
 import pathlib
 import sys
 import pickle
