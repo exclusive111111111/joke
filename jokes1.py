@@ -11,11 +11,10 @@ st.write("you select:",level)
 
 import streamlit as st
 import os
-from fastai import *
+#from fastai import *
 import pathlib
 import sys
 import pickle
-import random
 
 # 根据不同的操作系统设置正确的pathlib.Path
 if sys.platform == "win32":
